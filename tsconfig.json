@@ -1,0 +1,32 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    // 1. Modern Node.js environment(ES Modules)
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    // 2. Routes and Compilation
+    "rootDir": "./",
+    "outDir": "./dist",
+    "sourceMap": true,
+
+    // 3. Strict Typing
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // 4. Interoperability and Dependencies
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+
+    // 5. New in TypeScript 5.4+
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true
+  },
+  // 6. What to compile and ignore
+  "include": ["src/**/*", "app.ts", "server.ts"],
+  "exclude": ["node_modules", "dist"]
+}

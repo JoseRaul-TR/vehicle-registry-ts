@@ -1,0 +1,27 @@
+
+{
+  "name": "vehicle-registry-ts",
+  "version": "1.0.0",
+  "description": "A professional, robust, and minimalist vehicle registry system built with Node.js, Express, and MySQL. This application follows the MVC (Model-View-Controller) architecture and is fully typed with TypeScript to ensure code quality, maintainability, and a strong developer experience.",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsx watch server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "José Raúl Tenza Ramírez",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
