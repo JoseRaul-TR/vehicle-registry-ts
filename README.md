@@ -188,8 +188,8 @@ Pull requests are welcome. For major changes, open an issue first.
 
 ## 👤 Credits
 
-Original exercise in JavaScript by **Niklas Mårdby**.
-Migrated to TypeScript and extended by **José Raúl Tenza Ramírez**, including:
+Original exercise in JavaScript by **@niklas-mardby**.
+Migrated to TypeScript and extended by **@JoseRaul-TR**, including:
 
 - Creation of `controllers/vehicleController.ts`
 - Creation of `app.ts`
