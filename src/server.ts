@@ -1,7 +1,7 @@
 // server.js
 import "dotenv/config";
 import app from "./app.ts";
-import { testConnection, pool } from "./src/config/db.ts";
+import { testConnection, pool } from "./config/db.ts";
 import { Server } from "node:http";
 
 const PORT = process.env.PORT ?? 3000;

@@ -1,9 +1,9 @@
 // app.js
 import express from "express";
-import { validateVehicle } from "./src/middleware/validateVehicle.ts";
-import * as vehicleController from "./src/controllers/vehicleController.ts";
-import { errorHandler } from "./src/middleware/errorHandler.ts";
-import { AppError } from "./src/utils/AppError.ts";
+import { validateVehicle } from "./middleware/validateVehicle.ts";
+import * as vehicleController from "./controllers/vehicleController.ts";
+import { errorHandler } from "./middleware/errorHandler.ts";
+import { AppError } from "./utils/AppError.ts";
 
 export const app = express();
 app.use(express.json());
